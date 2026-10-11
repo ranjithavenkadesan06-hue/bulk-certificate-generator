@@ -1,0 +1,13 @@
+# Web framework and server
+fastapi>=0.110
+uvicorn>=0.29
+
+# Database (SQLite is built into Python, SQLAlchemy lets us use it with Python classes)
+sqlalchemy>=2.0
+
+# PDF generation
+reportlab>=4.0
+
+# Testing (httpx2 is used by FastAPI's TestClient)
+pytest>=8.0
+httpx
